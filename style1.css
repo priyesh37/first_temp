@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-color: dodgerblue;
+	padding: 0; 
+}
+.navbar-brand img{
+	height: 40px;
+	padding-left: 20px;
+}
+.navbar-nav li{
+	padding: 0 20px;
+}
+.navbar-nav li a{
+	color: #fff !important; 
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+/*----------------banner section-----------*/
+#banner{
+	background-color: yellow;
+	color: #fff;
+	padding-top: 5%; 
+}
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.ply-btn{
+	width: 45px;
+	margin: 20px;
+}
+#banner a{
+	color: #fff;
+	text-decoration: none;
+}
+.bottom-img{
+	width: 100%;
+}
+/*-----------------service section--------*/
+#services{
+	padding: 80px 0;
+}
+.service-img{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+}
+.services{
+	padding: 20px;
+}
+.services h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.title{
+	color: solidblack;
+	font-weight: 800;	
+}
+#services .btn-primary{
+	box-shadow: none;
+	padding: 8px 25px;
+	border-radius: 20px;
+	border:none;
+	background-color: dodgerblue;
+}	
+/*-------------------about us---------------*/
+#about-us{
+	background-color: #f8f9fa;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8%;
+}
+#about-us ul li{
+	margin: 10px 0;
+}
+#about-us ul{
+	margin-left: 20px;
+}
+/*-----------------testimonials------------------*/
+#testimonials{
+	margin: 100px 0;
+}
+.testimonials{
+	border-left: 4px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.testimonials img{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.user-details{
+	display: inline-block;
+	font-size: 12px;
+}
+/*-------------social media -----------*/
+
+#s-m{
+	background: #f8ff;
+	padding: 100px 0;
+}
+#s-m p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.s-i img{
+	width: 70px;
+	transition: 0.5s;
+}
+.s-i a:hover img{
+	transform: translateY(-10px);
+}
+
+/*---------------------footer-------*/
+#footer{
+	background-color: #bbb;
+}
+.footer-box{
+	padding 20px;
+	margin-top: 30px;
+	color: olive;
+}
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.footer-box .fa{
+	margin-right: 2px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.footer-box .form-control{
+	box-shadow: none !important;
+	border: none;
+	margin-top: 25px;
+	border-radius: 5px;
+	max-width: 250px;
+}
+.footer-box .btn{
+	box-shadow: none !important;
+	border: 2px solid black;
+	margin-top: 25px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+}
+hr{
+	background-color: #fff;
+}
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(23,133,34);
+}
